@@ -28,11 +28,6 @@ Each execution logs the following data:
 ```bash
 $HOME/Logs/Stats/system_stats.csv
 ```
-Additionally, each run creates a timestamped log file in:
-
-```bash
-$HOME/Logs/
-```
 ---
 ## ⚙️ Setup & Usage
 1. Clone or copy the script to your machine
