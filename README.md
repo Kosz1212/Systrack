@@ -90,3 +90,7 @@ datetime,cpu_used_percent,ram_used_mb,ram_free_mb,swap_used_mb,swap_free_mb,disk
 ```bash
 nix-shell -p bc procps
 ```
+
+---
+
+**Maintained by [Kosz1212](https://github.com/Kosz1212)**
