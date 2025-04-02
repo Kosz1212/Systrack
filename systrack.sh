@@ -1,12 +1,5 @@
 #!/usr/bin/env bash
 
-# Create Logs folder if it doesn't exist
-mkdir -p "$HOME/Logs"
-
-# Redirect all output to a timestamped log file
-logfile="$HOME/Logs/systrack-$(date +'%F-%H-%M-%S').log"
-exec >> "$logfile" 2>&1
-
 # Collect system data
 date=$(date +"%F %T")
 cpu=$(echo "100 - $(top -bn1 | grep 'Cpu(s)' | awk '{print $8}' | sed 's/,/./')" | bc)
